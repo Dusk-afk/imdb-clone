@@ -7,9 +7,11 @@ export default interface IMovie {
   media_type: string;
   adult: boolean;
   title: string;
+  name: string;
   original_language: string;
   genre_ids: number[];
   release_date: string;
+  first_air_date: string;
   video: boolean;
   vote_average: number;
   vote_count: number;
