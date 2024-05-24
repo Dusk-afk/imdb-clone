@@ -13,7 +13,7 @@ const Card: React.FC<CardProps> = ({ movie }) => {
     <div className="group cursor-pointer sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200">
       <Link href={`/movie/${movie.id}`}>
         <Image
-          src={`https://image.tmdb.org/t/p/original/${
+          src={`https://image.tmdb.org/t/p/original${
             movie.backdrop_path || movie.poster_path
           }`}
           width={500}
